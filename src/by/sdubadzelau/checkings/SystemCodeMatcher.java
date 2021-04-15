@@ -9,9 +9,13 @@ import java.util.regex.Pattern;
 
 public class SystemCodeMatcher {
 
-    int re;
+
+
+
+
+    int r;
     SystemCodeMatcher () {
-        re = 5;
+        r = 5;
 
     }
 
