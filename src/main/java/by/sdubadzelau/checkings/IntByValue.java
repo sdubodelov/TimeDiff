@@ -2,7 +2,7 @@ package by.sdubadzelau.checkings;
 
 public class IntByValue {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         System.out.println(fun());
     }
     static int fun()

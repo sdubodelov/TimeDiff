@@ -6,5 +6,16 @@
  */
 
 plugins {
-    id "org.sonarqube" version "2.7"
+    id "org.sonarqube" version "3.0"
+}
+
+apply plugin: 'java'
+
+sonarqube {
+    properties {
+        property 'sonar.projectName', project.name
+        property 'sonar.login', '2bc1b8e3827153dd73fa0721e9718db8f680145a'
+        property 'sonar.host.url', 'http://kubernetes.docker.internal:9000'
+        property 'sonar.projectKey', 'TimeDiff-PK1'
+    }
 }

@@ -19,7 +19,7 @@ public class SystemCodeMatcher {
 
     }
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         Pattern SYSTEM_CODE_PATTERN = Pattern.compile(".*/(([a-fA-F0-9]{4})/[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})$");
         String internalUrl = "/listings/0000/2bc35da9-1dce-418b-8015-f48c759ee87a";
         Matcher matcher = SYSTEM_CODE_PATTERN.matcher(internalUrl);
