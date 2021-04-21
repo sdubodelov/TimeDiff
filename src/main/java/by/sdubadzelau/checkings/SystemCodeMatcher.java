@@ -27,6 +27,8 @@ public class SystemCodeMatcher {
         if(matcher.matches()){
             System.out.println(matcher.groupCount());
             System.out.println(matcher.group(2));
+            System.out.println(matcher.group(2));
+            System.out.println(matcher.group(2));
         }
     }
 }
